@@ -1,0 +1,35 @@
+vendor
+composer.lock
+composer.phar
+.env
+cache/*
+!cache/.gitkeep
+log/*
+!log/.gitkeep
+
+# Log files
+*.log
+*.tmp
+
+# PHPUnit coverage
+coverage
+
+# PhpStorm
+.idea
+
+
+## OS ##
+
+# Linux
+*~
+*.swp
+.directory
+
+# Windows
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Mac
+.DS_Store*
+._*
